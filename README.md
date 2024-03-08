@@ -2,12 +2,12 @@
   <h1> GitHub Workflow for Generating Zhihu Badge </h1>
 </div>
 <p align="center">
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/405-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/1722-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/1467-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
+    <img src="https://img.shields.io/badge/3843-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
+    <img src="https://img.shields.io/badge/1308-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
+    <img src="https://img.shields.io/badge/551-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
 </p>
 
 ## Introduction
@@ -32,54 +32,11 @@ Copy the provided badges and paste them into your README.md file. Here's an exam
 </div>
 <p align="center">
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/3843-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/1308-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
-</p>
-```
-
-```
-markdownCopy code<div align="center">
-  <h1> GitHub Workflow for Generating Zhihu Badge </h1>
-</div>
-<p align="center">
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/405-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/1722-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/1467-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
-</p>
-
-## Introduction
-
-This GitHub Workflow generates Zhihu badges displaying various metrics related to a Zhihu user's profile. These badges visually represent metrics such as follower count, voteup count, and thanked count.
-
-## Features
-
-- **Follower Badge**: Displays the number of followers a Zhihu user has.
-- **Voteup Badge**: Displays the total number of votes received by a Zhihu user's answers.
-- **Thanked Badge**: Displays the total number of times a Zhihu user has been thanked for their answers.
-
-## Usage
-
-### Writing the README.md File
-
-Copy the provided badges and paste them into your README.md file. Here's an example:
-
-```markdown
-<div align="center">
-  <h1> My Zhihu Profile Metrics </h1>
-</div>
-<p align="center">
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/551-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
 </p>
 ```
 
