@@ -14,6 +14,8 @@
 
 This GitHub Workflow generates Zhihu badges displaying various metrics related to a Zhihu user's profile. These badges visually represent metrics such as follower count, voteup count, and thanked count.
 
+The Zhihu profile linked in the badge above belongs to the laboratory where I work. The laboratory's GitHub homepage is located at [https://github.com/WestlakeIntelligentRobotics](https://github.com/WestlakeIntelligentRobotics).
+
 ## Features
 
 - **Follower Badge**: Displays the number of followers a Zhihu user has.
