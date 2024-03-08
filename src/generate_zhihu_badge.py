@@ -42,7 +42,7 @@ def update_readme(badge_url, label):
 
 if __name__ == '__main__':
     username = os.environ.get('ZHIHU_USERNAME')
-    data = get_zhihu_data("username")
+    data = get_zhihu_data(username)
     labels = ["Follower", "Voteup", "Thanked"]
     for count, label in zip(data, labels):
         badge_url = generate_badge(count, label)
