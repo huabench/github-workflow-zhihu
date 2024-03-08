@@ -40,49 +40,6 @@ Copy the provided badges and paste them into your README.md file. Here's an exam
 </p>
 ```
 
-```
-markdownCopy code<div align="center">
-  <h1> GitHub Workflow for Generating Zhihu Badge </h1>
-</div>
-<p align="center">
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/13-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
-</p>
-
-## Introduction
-
-This GitHub Workflow generates Zhihu badges displaying various metrics related to a Zhihu user's profile. These badges visually represent metrics such as follower count, voteup count, and thanked count.
-
-## Features
-
-- **Follower Badge**: Displays the number of followers a Zhihu user has.
-- **Voteup Badge**: Displays the total number of votes received by a Zhihu user's answers.
-- **Thanked Badge**: Displays the total number of times a Zhihu user has been thanked for their answers.
-
-## Usage
-
-### Writing the README.md File
-
-Copy the provided badges and paste them into your README.md file. Here's an example:
-
-```markdown
-<div align="center">
-  <h1> My Zhihu Profile Metrics </h1>
-</div>
-<p align="center">
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/13-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
-</p>
-```
-
 Replace `your_zhihu_username` with your actual Zhihu username in the badge URLs. Don't worry about the numbers on the badges; they will be updated with the newly retrieved data after running the workflow.
 
 ### Adding Source Code and Workflow File
