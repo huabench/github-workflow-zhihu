@@ -3,11 +3,11 @@
 </div>
 <p align="center">
   <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/13-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/3843-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/1308-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/551-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
 </p>
 
 ## Introduction
@@ -32,11 +32,11 @@ Copy the provided badges and paste them into your README.md file. Here's an exam
 </div>
 <p align="center">
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/13-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/3843-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/1308-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
   <a href="https://www.zhihu.com/people/your_zhihu_username">
-    <img src="https://img.shields.io/badge/0-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
+    <img src="https://img.shields.io/badge/551-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
 </p>
 ```
 
