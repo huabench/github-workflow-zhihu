@@ -25,7 +25,7 @@ jobs:
 
     # 获取知乎的 follower 数量并生成 badge
     - name: Generate Zhihu Follower Badge
-      run: python generate_zhihu_badge.py
+      run: python src/generate_zhihu_badge.py
       env:
           ZHIHU_USERNAME: kong-zhong-ji-qi-ren-qian-yan
       
