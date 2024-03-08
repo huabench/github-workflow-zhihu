@@ -2,11 +2,11 @@
   <h1> GitHub Workflow for Generating Zhihu Badge </h1>
 </div>
 <p align="center">
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
     <img src="https://img.shields.io/badge/3843-blue?logo=zhihu&logoColor=blue&label=Follower&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
     <img src="https://img.shields.io/badge/1308-blue?logo=zhihu&logoColor=blue&label=Voteup&labelColor=white&color=blue"></a>
-  <a href="https://www.zhihu.com/people/6a90e389b176a5cd201ec3860c8adbd7">
+  <a href="https://www.zhihu.com/people/kong-zhong-ji-qi-ren-qian-yan">
     <img src="https://img.shields.io/badge/551-blue?logo=zhihu&logoColor=blue&label=Thanked&labelColor=white&color=blue"></a>
 </p>
 
