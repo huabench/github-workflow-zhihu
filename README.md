@@ -1,3 +1,9 @@
+<div align="right">
+  <a href="README_zh.md">
+    [中文]
+  </a>
+</div>
+
 <div align="center">
   <h1> GitHub Workflow for Generating Zhihu Badge </h1>
 </div>
@@ -47,42 +53,50 @@ Replace `your_zhihu_username` with your actual Zhihu username in the badge URLs.
 ### Adding Source Code and Workflow File
 
 1. **Add Python Script**: Copy the `generate_zhihu_badge.py` script from the `src` directory to your project.
-2. **Copy YAML File**: Copy the `update_zhihu_follower_badge.yml` file in the `.github/workflows` directory of your GitHub repository to the same directory in your project. This YAML file defines the workflow for updating the Zhihu Follower Badge.
+2. **Copy YAML File**: Copy the `zhihu_follower.yml` file in the `.github/workflows` directory of your GitHub repository to the same directory in your project. This YAML file defines the workflow for updating the Zhihu Follower Badge. 
 
 ### Workflow Explanation
 
 ```yaml
 name: Update Zhihu Follower Badge
 
-# schedule:
-  #   # 每天 UTC 时间00:00 运行
-  #   - cron: '0 0 * * *'
-  
 on:
+  # schedule:
+  #   # Run every day at UTC time 00:00
+  #   - cron: '0 0 * * *'
   workflow_dispatch:
-    # Manually triggered
+    # Manually trigger
 
 jobs:
   update-badge:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository code
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      # Generate Zhihu Follower Badge
-      - name: Generate Zhihu Follower Badge
-        run: python generate_zhihu_badge.py
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-      # Commit and push if changed
-      - name: Commit and push if changed
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add -A
-          git commit -m "Update Zhihu Follower Badge" -a || exit 0 # Exit if no changes
-          git push
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    # Fetch follower count from Zhihu and generate badge
+    - name: Generate Zhihu Follower Badge
+      run: python src/generate_zhihu_badge.py
+      env:
+        ZHIHU_USERNAME: your_zhihu_username
+      
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add -A
+        git commit -m "Update Zhihu Follower Badge" -a || exit 0
+        git push
+
 ```
 
 The workflow defined in the YAML file can be triggered manually using the `workflow_dispatch` event or automatically run at 24:00 every day if you uncomment the `schedule` section. It consists of a single job named `update-badge` that runs on the `ubuntu-latest` environment.
