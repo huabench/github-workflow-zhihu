@@ -27,7 +27,7 @@ jobs:
     - name: Generate Zhihu Follower Badge
       run: python src/generate_zhihu_badge.py
       env:
-          ZHIHU_USERNAME: kong-zhong-ji-qi-ren-qian-yan
+        ZHIHU_USERNAME: kong-zhong-ji-qi-ren-qian-yan
       
     - name: Commit and push if changed
       run: |
